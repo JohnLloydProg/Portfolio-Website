@@ -54,14 +54,4 @@
     margin-top: -0.5em;
   }
 }
-
-@media only screen and (min-width: 1024px) {
-  .contacts .cloud-design {
-    display: unset;
-    position: fixed;
-    width: 25%;
-    bottom: 0;
-    left: 0;
-  }
-}
 /*# sourceMappingURL=contacts.css.map */
