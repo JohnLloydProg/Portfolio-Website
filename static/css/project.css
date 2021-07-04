@@ -1,0 +1,101 @@
+.project {
+  background-color: #303030;
+  height: 105vh;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.project .container {
+  padding: 1em;
+}
+
+.project .container .details .subheader {
+  color: #E22828;
+  font-weight: bold;
+  margin-top: unset;
+}
+
+.project .container .details h1 {
+  margin-top: -0.7em;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.project .container .details .description {
+  margin-top: -0.5em;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.project .container .details .link {
+  margin-top: 2em;
+  color: #FFFFFF;
+}
+
+.project .container .details .link a {
+  color: #E22828;
+  text-decoration: underline;
+}
+
+.project .container img {
+  border-radius: 1em;
+}
+
+.project .cloud-design {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .project .container {
+    margin-top: 2em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+  }
+  .project .container .details {
+    text-align: left;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .project .cloud-design {
+    display: unset;
+    position: fixed;
+    width: 25%;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .project .container img {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 1340px) {
+  .project .container img {
+    margin-left: 4em;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+  .project .container img {
+    margin-left: 6em;
+  }
+}
+
+@media only screen and (min-width: 1740px) {
+  .project .container img {
+    margin-left: 8em;
+  }
+}
+
+@media only screen and (min-width: 1940px) {
+  .project .container img {
+    margin-left: 10em;
+  }
+}
+/*# sourceMappingURL=project.css.map */

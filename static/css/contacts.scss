@@ -1,0 +1,50 @@
+.contacts {
+    height: 100vh;
+    background-color: #303030;
+    padding-top: 2em;
+    .container {
+        padding: 1em;
+        h1 {
+            color: #E22828;
+            font-weight: bold;
+        }
+        .message {
+            margin-top: -0.5em;
+            color: white;
+            text-align: justify;
+        }
+        .links {
+            .link {
+                color: white;
+                font-weight: bold;
+                span {
+                    font-weight: normal;
+                    color: #E22828;
+                }
+                a {
+                    color: #E22828;
+                    font-weight: normal;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts {
+        .container {
+            padding: 2em;
+            h1 {
+                text-align: left;
+            }
+            .links {
+                margin-top: 2.5em;
+                .link {
+                    text-align: left;
+                    margin-top: -0.5em;
+                }
+            }
+        }
+    }
+}

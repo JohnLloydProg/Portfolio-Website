@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma&display=swap");
+.nav-bar {
+  background: #202020;
+}
+
+.nav-bar .container {
+  padding: 2em;
+}
+
+.nav-bar .container .primary-nav-bar .logo {
+  display: none;
+}
+
+.nav-bar .container .primary-nav-bar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-bar .container .primary-nav-bar nav ul a {
+  display: block;
+  font-size: 0.8em;
+  padding: 0 1em;
+  color: #FFFFFF;
+}
+
+.nav-bar .container .social-media-icons {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-bar .container {
+    margin-top: -3em;
+  }
+  .nav-bar .container .primary-nav-bar {
+    padding-top: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar .container .primary-nav-bar .logo {
+    display: unset;
+    color: #E22828;
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+  .nav-bar .container .primary-nav-bar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-bar .container .primary-nav-bar nav ul {
+    margin-left: 3em;
+  }
+  .nav-bar .container .primary-nav-bar nav ul li {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+  }
+  .nav-bar .container .social-media-icons {
+    margin-top: -3em;
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar .container .social-media-icons img {
+    width: 3em;
+    margin: 0 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-bar .container {
+    margin: -2.5em 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .nav-bar .container {
+    margin: -3em 2em 0 2em;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .nav-bar .container {
+    margin: -3em 4em 0 4em;
+  }
+}
+
+@media only screen and (min-width: 1340px) {
+  .nav-bar .container {
+    margin: -3em 6em 0 6em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-bar .container {
+    margin: -3em 8em 0 8em;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+  .nav-bar .container {
+    margin: -3em 10em 0 10em;
+  }
+}
+
+@media only screen and (min-width: 1640px) {
+  .nav-bar .container {
+    margin: -3em 12em 0 12em;
+  }
+}
+
+@media only screen and (min-width: 1740px) {
+  .nav-bar .container {
+    margin: -3em 14em 0 14em;
+  }
+}
+
+@media only screen and (min-width: 1840px) {
+  .nav-bar .container {
+    margin: -3em 16em 0 16em;
+  }
+}
+/*# sourceMappingURL=nav-bar.css.map */

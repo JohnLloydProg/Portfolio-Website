@@ -1,0 +1,53 @@
+.contacts {
+  height: 100vh;
+  background-color: #303030;
+  padding-top: 2em;
+}
+
+.contacts .container {
+  padding: 1em;
+}
+
+.contacts .container h1 {
+  color: #E22828;
+  font-weight: bold;
+}
+
+.contacts .container .message {
+  margin-top: -0.5em;
+  color: white;
+  text-align: justify;
+}
+
+.contacts .container .links .link {
+  color: white;
+  font-weight: bold;
+}
+
+.contacts .container .links .link span {
+  font-weight: normal;
+  color: #E22828;
+}
+
+.contacts .container .links .link a {
+  color: #E22828;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts .container {
+    padding: 2em;
+  }
+  .contacts .container h1 {
+    text-align: left;
+  }
+  .contacts .container .links {
+    margin-top: 2.5em;
+  }
+  .contacts .container .links .link {
+    text-align: left;
+    margin-top: -0.5em;
+  }
+}
+/*# sourceMappingURL=contacts.css.map */
