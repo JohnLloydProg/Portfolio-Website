@@ -117,6 +117,7 @@ img {
 }
 
 .skills .container ul li {
+  width: 50%;
   margin-bottom: 1em;
   padding: 1.5em;
   border-radius: 2em;
@@ -155,6 +156,10 @@ img {
   color: #000000;
   font-weight: lighter;
   text-align: justify;
+}
+
+.portfolio .container .description-block a {
+  color: #AB2121;
 }
 
 .portfolio .container img {
