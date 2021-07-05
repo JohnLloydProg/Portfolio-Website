@@ -5,8 +5,7 @@
     .container{
         padding: 2em;
         .primary-nav-bar {
-            a {
-                display: block;
+            .logo {
                 margin: auto;
                 color: #E22828;
                 font-weight: bold;
@@ -26,7 +25,7 @@
             .primary-nav-bar {
                 padding-top: 3em;
                 display: flex;
-                a {
+                .logo {
                     margin: unset;
                 }
             }

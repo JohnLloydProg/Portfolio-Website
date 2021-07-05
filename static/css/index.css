@@ -86,7 +86,7 @@ img {
   text-align: center;
 }
 
-.featured-project .container a {
+.featured-project .container .image-link {
   margin: auto;
 }
 

@@ -7,8 +7,7 @@
   padding: 2em;
 }
 
-.nav-bar .container .primary-nav-bar a {
-  display: block;
+.nav-bar .container .primary-nav-bar .logo {
   margin: auto;
   color: #E22828;
   font-weight: bold;
@@ -29,7 +28,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .nav-bar .container .primary-nav-bar a {
+  .nav-bar .container .primary-nav-bar .logo {
     margin: unset;
   }
   .nav-bar .container .social-media-icons {
