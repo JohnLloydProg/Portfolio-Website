@@ -86,6 +86,10 @@ img {
   text-align: center;
 }
 
+.featured-project .container .image-link {
+  margin: auto;
+}
+
 .featured-project .container img {
   border-radius: 1em;
 }
@@ -117,8 +121,8 @@ img {
 }
 
 .skills .container ul li {
-  width: 50%;
-  margin-bottom: 1em;
+  width: 80%;
+  margin: 1em auto;
   padding: 1.5em;
   border-radius: 2em;
   background: #202020;
@@ -162,8 +166,13 @@ img {
   color: #AB2121;
 }
 
+.portfolio .container .description-block .github-link {
+  text-align: center;
+}
+
 .portfolio .container img {
   border-radius: 1em;
+  margin: auto;
 }
 
 .footer {
@@ -265,6 +274,9 @@ img {
     text-align: left;
     margin-right: 1em;
   }
+  .portfolio .container .description-block .github-link {
+    text-align: unset;
+  }
   .footer .container .primary-nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -290,6 +302,9 @@ img {
   .footer .container .primary-nav-bar nav ul li {
     font-size: 1.2em;
     margin-top: 0.36em;
+  }
+  .skills .container ul li {
+    width: 70%;
   }
 }
 
@@ -333,6 +348,7 @@ img {
     display: flex;
   }
   .skills .container ul li {
+    width: 50%;
     margin: 0 0.5em;
     padding-top: 3em;
   }

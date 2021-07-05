@@ -8,20 +8,10 @@
 }
 
 .nav-bar .container .primary-nav-bar .logo {
-  display: none;
-}
-
-.nav-bar .container .primary-nav-bar nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav-bar .container .primary-nav-bar nav ul a {
-  display: block;
-  font-size: 0.8em;
-  padding: 0 1em;
-  color: #FFFFFF;
+  margin: auto;
+  color: #E22828;
+  font-weight: bold;
+  font-size: 1.6em;
 }
 
 .nav-bar .container .social-media-icons {
@@ -39,25 +29,7 @@
     display: flex;
   }
   .nav-bar .container .primary-nav-bar .logo {
-    display: unset;
-    color: #E22828;
-    font-weight: bold;
-    font-size: 1.6em;
-  }
-  .nav-bar .container .primary-nav-bar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .nav-bar .container .primary-nav-bar nav ul {
-    margin-left: 3em;
-  }
-  .nav-bar .container .primary-nav-bar nav ul li {
-    font-size: 1.2em;
-    margin-top: 0.3em;
+    margin: unset;
   }
   .nav-bar .container .social-media-icons {
     margin-top: -3em;

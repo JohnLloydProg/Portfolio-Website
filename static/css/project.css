@@ -39,6 +39,7 @@
 
 .project .container img {
   border-radius: 1em;
+  margin: auto;
 }
 
 .project .cloud-design {

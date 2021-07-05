@@ -82,6 +82,9 @@ img {
     padding: 4em 2em;
     text-align: center;
     .container {
+        .image-link {
+            margin: auto;
+        }
         img {
             border-radius: 1em;
         }
@@ -111,8 +114,8 @@ img {
         padding: 2em;
         ul {
             li {
-                width: 50%;
-                margin-bottom: 1em;
+                width: 80%;
+                margin: 1em auto;
                 padding: 1.5em;
                 border-radius: 2em;
                 background: #202020;
@@ -152,9 +155,13 @@ img {
             a {
                 color: #AB2121;
             }
+            .github-link {
+                text-align: center;
+            }
         }
         img {
             border-radius: 1em;
+            margin: auto;
         }
     }
 }
@@ -240,6 +247,9 @@ img {
             .description-block {
                 text-align: left;
                 margin-right: 1em;
+                .github-link {
+                    text-align: unset;
+                }
             }
         }
     }
@@ -263,6 +273,15 @@ img {
                             margin-top: 0.36em;
                         }
                     }
+                }
+            }
+        }
+    }
+    .skills {
+        .container {
+            ul {
+                li {
+                    width: 70%;
                 }
             }
         }
@@ -313,6 +332,7 @@ img {
             ul {
                 display: flex;
                 li {
+                    width: 50%;
                     margin: 0 0.5em;
                     padding-top: 3em;
                     .skill-title {
