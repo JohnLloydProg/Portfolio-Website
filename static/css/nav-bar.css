@@ -8,6 +8,7 @@
 }
 
 .nav-bar .container .primary-nav-bar a {
+  display: block;
   margin: auto;
   color: #E22828;
   font-weight: bold;
